@@ -4,8 +4,7 @@ export const CH_SPACE       = ' ';
 
 
 export function summarize(s: string, c: number): string {
-  console.log("hello world");
-
+  
   if(s === undefined || s === null || s.length === 0) {
     
     console.log("Unable to summarize string");
